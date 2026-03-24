@@ -1,13 +1,15 @@
-# Student Course Management System (C++ Console Application)
+# Student Course Management System LMS (C++ Console Application)
 
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
 A complete console-based Student Learning Management System developed as an **individual assignment** using Object-Oriented Programming (OOP) and the Standard Template Library (STL).
 
 ## 📋 Project Description
+
 This system provides a menu-driven interface to manage students and their course enrollments efficiently. It demonstrates the practical application of C++ fundamentals, OOP principles, and STL containers & algorithms.
 
 ## ✨ Features
+
 - Add a new student (ID, Name, GPA)
 - Remove a student using ID
 - Search for a student by ID
@@ -18,6 +20,7 @@ This system provides a menu-driven interface to manage students and their course
 - Full input validation (Unique ID, GPA range 0.0–4.0, no duplicate courses)
 
 ## 🛠️ Technologies & Concepts Used
+
 - **OOP Principles**: Classes, Encapsulation, Constructors, Member Functions
 - **Inheritance**: `Person` (base class) → `Student` (derived class)
 - **STL Containers**: 
@@ -29,6 +32,8 @@ This system provides a menu-driven interface to manage students and their course
 - Modular code structure with separate header and implementation files
 
 ## 📁 Project Structure
+
+```tree
 Student_LMS/
 ├── main.cpp                 # Main program with menu and all functions
 ├── person.h                 # Base Person class definition
@@ -37,42 +42,37 @@ Student_LMS/
 ├── student.cpp              # Student class implementation
 ├── README.md
 └── .gitignore
-text## 🚀 How to Compile and Run
 
-### Using g++ (Recommended)
-```bash
-g++ main.cpp person.cpp student.cpp -o StudentLMS
-./StudentLMS          # Linux / macOS
-StudentLMS.exe        # Windows
-Using Visual Studio
 
-Open the folder.
-Build Solution.
-Run (Ctrl + F5).
+            
+## 📌 Menu Options
 
-📌 Menu Options
+| Option | Description |
+|--------|-------------|
+| 1 | Add Student |
+| 2 | Remove Student |
+| 3 | Search Student |
+| 4 | Display All Students |
+| 5 | Enroll Student in Course |
+| 6 | Show Student Courses |
+| 7 | Sort Students by GPA |
+| 8 | Exit |
 
-Add Student
-Remove Student
-Search Student
-Display All Students
-Enroll Student in Course
-Show Student Courses
-Sort Students by GPA
-Exit
+## ✅ Assignment Requirements Fulfilled
 
-✅ Assignment Requirements Fulfilled
+- Inheritance (`Person` → `Student`)
+- At least two STL containers (`vector` + `map` + `set`)
+- STL algorithms (`sort` + `transform`)
+- All 8 menu functions
+- Constraints handling
 
- Inheritance (Person → Student)
- At least two STL containers (vector + map + set)
- STL algorithms (sort + transform)
- All 8 menu functions
- Constraints handling
+## 👨‍💻 Author
 
-👨‍💻 Author
-Mazen Amir
-Student ID: [11193]
-Course: C++ Programming
+**Mazen Amir**  
+Student ID: `[11193]`  
+Course: C++ Programming  
 Assignment: Individual Project
-📄 License
+
+## 📄 License
+
 University assignment - All rights reserved.
