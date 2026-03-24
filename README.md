@@ -35,7 +35,7 @@ This system provides a menu-driven interface to manage students and their course
 
 ```tree
 Student_LMS/
-├── main.cpp                 # Main program with menu and all functions
+├── student_lms.cpp                 # Main program with menu and all functions
 ├── person.h                 # Base Person class definition
 ├── person.cpp               # Person class implementation
 ├── student.h                # Student class (inherits from Person)
